@@ -103,7 +103,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url='https://t.me/DKBOTxCHATS')
+            InlineKeyboardButton('backup group', url='https://t.me/+thGM8huKvT1jZWFl')
         ]
         ]
     return InlineKeyboardMarkup(buttons)
