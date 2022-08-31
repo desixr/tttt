@@ -431,17 +431,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
             msg1 = await query.message.reply(
                 f'<b> Hai 👋 {query.from_user.mention} </b>😍\n\n<b>📫 Your File is Ready</b>\n\n'           
-                f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[DK_BOTx] {title}</code>\n\n'              
-                f'<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>',
+                f'<b>📂 𝙁𝙄𝙡𝙚 𝙉𝘼𝙈𝙀</b> : <code>{title}</code>\n\n'              
+                f'<b>⚙️ 𝙁𝙞𝙡𝙚 𝙎𝙞𝙯𝙚</b> : <b>{size}</b>',
                 True,
                 'html',
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('🖤 𝐘O𝐔R 𝐌O𝐕I𝐄 🖤 ', url = msg.link)
+                            InlineKeyboardButton('👇 𝙔𝙤𝙪𝙧 𝙈𝙤𝙫𝙞𝙚👇 ', url = msg.link)
                         ],                       
                         [
-                            InlineKeyboardButton("🖤 𝐓H𝐈S C𝐇A𝐍N𝐄L 𝐂L𝐈C𝐊 𝐌E 🖤", url=f'https://t.me/+UDh4LfMu3G8xNzNl')
+                            InlineKeyboardButton("👉 𝙅𝙤𝙞𝙣 𝙅𝙤𝙞𝙣 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 👈 ", url=f'https://t.me/+UDh4LfMu3G8xNzNl')
                         ]
                     ]
                 )
