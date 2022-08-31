@@ -500,7 +500,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('💝 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 💝', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
         InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/filmy_jatt'),
-        InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+k5v_fyitWiY2YWU1')
+        InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/filmyjattruqestgroup')
         ],[  
         InlineKeyboardButton('⚕️ 𝙷𝚎𝚕𝚙 ⚕️', callback_data='help')
     ]]
@@ -1028,7 +1028,7 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(text="🧛𝙶𝚁𝙾𝚄𝙿🧛", url="https://t.me/+k5v_fyitWiY2YWU1"),
+            InlineKeyboardButton(text="🧛𝙶𝚁𝙾𝚄𝙿🧛", url="https://t.me/filmyjattruqestgroup"),
             InlineKeyboardButton(text="🦹‍♀️𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴🦹‍♀️", url="https://youtube.com/shorts/WiDmMCNCcGQ?feature=share"),
             InlineKeyboardButton(text="🧞‍♂️𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧞‍♂️", url="https://t.me/filmy_jatt")
         ]
@@ -1145,7 +1145,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        one_button = InlineKeyboardMarkup([[InlineKeyboardButton("⚕️𝐴𝐷𝑀𝐼𝑁𝐸⚕️", url="https://t.me/DmAdmine"), InlineKeyboardButton("♻️𝐺𝑂𝑂𝐺𝐿𝐸 ♻️", url="https://www.google.com/")]])
+        one_button = InlineKeyboardMarkup([[InlineKeyboardButton("⚕️𝐴𝐷𝑀𝐼𝑁𝐸⚕️", url="https://t.me/sukhmankaler"), InlineKeyboardButton("♻️𝐺𝑂𝑂𝐺𝐿𝐸 ♻️", url="https://www.google.com/")]])
         k = await msg.reply_photo(photo="https://telegra.ph/file/650c8b857763f8d96892c.jpg", caption="💙𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 𝚂𝙿𝙴𝙻𝙻𝙸𝙽𝙶 𝚆𝚁𝙾𝙽𝙶, 𝚃𝚈𝙿𝙴 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝚂𝙿𝙴𝙻𝙻𝙸𝙽𝙶,𝙲𝙷𝙴𝙲𝙺 𝚃𝙷𝙴 𝙿𝙸𝙲𝚃𝚄𝚁𝙴,𝙰𝙽𝙳 𝙲𝙾𝙿𝚈 𝙿𝙰𝚂𝚃𝙴 𝙻𝙸𝙺𝙴 𝚃𝙷𝙸𝚂⚕️", reply_markup = one_button)
         await asyncio.sleep(20)
         await k.delete()
